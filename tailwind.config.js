@@ -9,7 +9,8 @@ module.exports = {
       'border-color': '#FFFAFF'
     },
     fontFamily: {
-      oswald: ["Oswald", 'sans-serif']
+      oswald: ["Oswald", 'sans-serif'],
+      mulish: ["Mulish", 'sans-serif']
     },
     extend: {
 
