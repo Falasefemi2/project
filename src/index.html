@@ -5,26 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="border-b bg-white h-[40px]">
-        <div class="max-w-[1100px] mx-auto py-10">
-            <div class="flex items-center justify-between">
-                <ul class="flex items-center mt-3 space-x-6">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Project</li>
+<body class="font-mono">
+    <!-- Header section -->
+    <header class=" bg-border-color border-b-border-color">
+        <div class="max-w-[428px] md:max-w-[1440px] h-24 mx-auto px-7 py-7">
+
+            <div class="flex flex-col items-center justify-between md:flex-row"">
+                <ul class=" hidden md:flex items-center mt-3 space-x-6 cursor-pointer">
+                <li class="text-link-color text-sm">Home</li>
+                <li class="text-link-color text-sm">About</li>
+                <li class="text-link-color text-sm">Project</li>
                 </ul>
-                <img src="/img/image 279.png" alt="">
-                <ul class="flex items-center mt-3 space-x-6">
-                    <li>Features</li>
-                    <li>Awards</li>
-                    <li>Faq</li>
+                <img src="/img/image 279.png" alt="" class="w-[58px] h-[58px]">
+                <ul class="hidden md:flex items-center mt-3 space-x-6 cursor-pointer">
+                    <li class="text-link-color text-sm">Features</li>
+                    <li class="text-link-color text-sm">Awards</li>
+                    <li class="text-link-color text-sm">Faq</li>
                 </ul>
             </div>
         </div>
-    </div>
+
+        <!-- Hero Section -->
+        <main class="w-[428px] h-[640px] relative">
+            <div>
+                <img src="/img/image 296.png" alt="" class="w-[920px] h-[625px]">
+                <div class="absolute top-0 left-0  p-8">
+                    <h1
+                        class="text-5xl font-400 leading-[64px] text-border-color text-center pt-9 w-[383px] h-[192px] font-oswald">
+                        The ultimate aroma
+                        and
+                        taste, for blissful<br><span class="text-span-color">relaxation</span>.</h1>
+                    <p class="text-lg">Elevate your tea experience and discover the perfect balance of tranquility and
+                        taste, sip by sip. Welcome to a journey where every cup is a celebration of serenity and
+                        indulgence.</p>
+                </div>
+            </div>
+        </main>
+
 </body>
 
 </html>
