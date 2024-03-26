@@ -10,7 +10,8 @@ module.exports = {
     },
     fontFamily: {
       oswald: ["Oswald", 'sans-serif'],
-      mulish: ["Mulish", 'sans-serif']
+      mulish: ["Mulish", 'sans-serif'],
+      oswald: ["Oswald", 'sans-serif']
     },
     extend: {
 

@@ -13,11 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header section -->
-    <header class=" bg-border-color border-b-border-color">
+    <header class=" bg-border-color border-b-border-color w-full h-full">
         <div class="max-w-[428px] md:max-w-[1440px] h-24 mx-auto px-7 py-7">
 
             <div class="flex flex-col items-center justify-between md:flex-row"">
@@ -36,28 +39,55 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <main class="w-[428px] h-[640px] relative flex justify-center items-center">
-        <div>
-            <img src="/img/image 296.png" alt="" class="w-[920px] h-[625px]">
-            <div class="absolute top-0 left-0 flex flex-col justify-center items-center">
-                <h1
-                    class="text-5xl font-400 leading-[64px] text-border-color text-center pt-9 w-[383px] font-oswald mt-12">
-                    The ultimate aroma
-                    and
-                    taste, for blissful<br><span class="text-span-color">relaxation</span>.</h1>
-                <p class="">Elevate your
-                    tea
-                    experience and discover the perfect
-                    balance of tranquility and
-                    taste, sip by sip. Welcome to a journey where every cup is a celebration of serenity and
-                    indulgence.</p>
+    <!-- Hero Section mobile -->
+    <!-- <main class="relative flex justify-center items-center md:hidden overflow-x-hidden">
+        <img src="/img/image 296.png" alt="" class="w-[920px] h-[625px]">
+        <div class="absolute top-0 left-0 flex flex-col justify-center items-center m-4">
+            <h1 class="text-5xl font-400 leading-[64px] text-border-color text-center pt-9 w-[383px] font-oswald mt-12">
+                The ultimate aroma
+                and
+                taste, for blissful<br><span class="text-span-color">relaxation</span>.</h1>
+            <p class="mt-4 text-border-color font-mulish font-semibold text-base leading-7 text-center max-w-[355px]">
+                Elevate your
+                tea
+                experience and discover the perfect
+                balance of tranquility and
+                taste, sip by sip. Welcome to a journey where every cup is a celebration of serenity and
+                indulgence.</p>
+            <div class="mt-7">
+                <button class="bg-btn-color py-3 px-[10px] w-[182px] h-12 text-border-color">Buy Now</button>
+            </div>
+        </div>
+    </main> -->
+    <main class="relative flex flex-col justify-center items-center md:hidden overflow-x-hidden">
+        <img src="/img/image 296.png" alt="" class="w-[920px] h-[625px] object-cover">
+        <div class="absolute top-0 left-0 flex flex-col justify-center items-center mx-4 mt-8 md:mt-0">
+            <h1 class="text-5xl font-400 leading-[64px] text-border-color text-center pt-9 font-oswald max-w-[383px]">
+                The ultimate aroma and taste, for blissful<br><span class="text-span-color">relaxation</span>.
+            </h1>
+            <p class="mt-4 text-border-color font-mulish font-semibold text-base leading-7 text-center max-w-[355px]">
+                Elevate your tea experience and discover the perfect balance of tranquility and taste, sip by sip.
+                Welcome to a journey where every cup is a celebration of serenity and indulgence.
+            </p>
+            <div class="mt-10">
+                <button class="bg-btn-color py-3 px-[10px] w-[182px] h-12 text-border-color">
+                    Buy Now
+                </button>
             </div>
         </div>
     </main>
 
-
-
-    <!-- font-semibold text-base leading-[28px] w-[355px] text-border-color font-mulish -->
+    <!-- Desktop Hero section -->
+    <main class="hidden md:block relative overflow-x-hidden">
+        <img src="/img/image 296 desk.png" alt="" class="w-full h-full object-cover">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
+            <h1 class="w-[858px]">The ultimate aroma and taste, for blissful relaxation.</h1>
+            <p>Elevate your tea experience and discover the perfect balance of tranquility and taste, sip by sip.
+                Welcome to a journey where every cup is a celebration of serenity and indulgence.</p>
+            <div>
+                <button class="bg-btn-color py-4 px-[10px] w-[235px] h-[56px] text-border-color">Buy Now</button>
+            </div>
+        </div>
+    </main>
 
 </html>
