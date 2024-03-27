@@ -620,16 +620,24 @@ video {
   margin-top: 10rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -668,6 +676,10 @@ video {
   width: 182px;
 }
 
+.w-\[198px\] {
+  width: 198px;
+}
+
 .w-\[235px\] {
   width: 235px;
 }
@@ -700,18 +712,6 @@ video {
   width: 100%;
 }
 
-.w-\[467px\] {
-  width: 467px;
-}
-
-.w-\[462px\] {
-  width: 462px;
-}
-
-.w-\[198px\] {
-  width: 198px;
-}
-
 .max-w-\[355px\] {
   max-width: 355px;
 }
@@ -730,10 +730,6 @@ video {
 
 .max-w-\[460\.57px\] {
   max-width: 460.57px;
-}
-
-.max-w-\[462px\] {
-  max-width: 462px;
 }
 
 .cursor-pointer {
@@ -820,16 +816,12 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.pt-9 {
-  padding-top: 2.25rem;
-}
-
 .pl-2 {
   padding-left: 0.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .text-center {
@@ -968,6 +960,14 @@ video {
     margin-top: 1rem;
   }
 
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -984,20 +984,20 @@ video {
     width: 50%;
   }
 
-  .md\:w-\[465px\] {
-    width: 465px;
-  }
-
-  .md\:w-\[467px\] {
-    width: 467px;
+  .md\:w-\[270px\] {
+    width: 270px;
   }
 
   .md\:w-\[462px\] {
     width: 462px;
   }
 
-  .md\:w-\[270px\] {
-    width: 270px;
+  .md\:w-\[465px\] {
+    width: 465px;
+  }
+
+  .md\:w-\[467px\] {
+    width: 467px;
   }
 
   .md\:max-w-\[1440px\] {
@@ -1021,14 +1021,6 @@ video {
     padding-right: 2.5rem;
   }
 
-  .md\:pl-0 {
-    padding-left: 0px;
-  }
-
-  .md\:pl-4 {
-    padding-left: 1rem;
-  }
-
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1038,12 +1030,12 @@ video {
     font-size: 32px;
   }
 
-  .md\:text-\[64px\] {
-    font-size: 64px;
-  }
-
   .md\:text-\[48px\] {
     font-size: 48px;
+  }
+
+  .md\:text-\[64px\] {
+    font-size: 64px;
   }
 
   .md\:text-lg {
@@ -1055,19 +1047,19 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:leading-\[56px\] {
-    line-height: 56px;
-  }
-
-  .md\:leading-\[72px\] {
-    line-height: 72px;
+  .md\:leading-8 {
+    line-height: 2rem;
   }
 
   .md\:leading-\[48px\] {
     line-height: 48px;
   }
 
-  .md\:leading-8 {
-    line-height: 2rem;
+  .md\:leading-\[56px\] {
+    line-height: 56px;
+  }
+
+  .md\:leading-\[72px\] {
+    line-height: 72px;
   }
 }
