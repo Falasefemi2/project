@@ -8,7 +8,9 @@ module.exports = {
       'btn-color': '#E16E4E',
       'border-color': '#FFFAFF',
       'black': '#202020',
-      'grey': '#666666'
+      'grey': '#666666',
+      'yellow': '#DBCA00',
+      'white': '#FFFFFF'
     },
     fontFamily: {
       oswald: ["Oswald", 'sans-serif'],
